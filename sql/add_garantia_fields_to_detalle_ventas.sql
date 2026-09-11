@@ -1,0 +1,4 @@
+ALTER TABLE `detalle_ventas`
+  ADD COLUMN `garantia` TINYINT(1) NOT NULL DEFAULT 0,
+  ADD COLUMN `pais_origen` VARCHAR(100) DEFAULT NULL,
+  ADD COLUMN `fabricacion` VARCHAR(100) DEFAULT NULL;
